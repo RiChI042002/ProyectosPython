@@ -1,56 +1,54 @@
-# Proyecto Rover Inteligente
+# Intelligent Rover Project
 
-## Resumen del Proyecto
+## Project Summary
 
-Este proyecto es un rover inteligente desarrollado sobre una Raspberry Pi, diseñado y programado en Python para demostrar habilidades en electrónica, programación y análisis de datos. El rover es capaz de transmitir video en tiempo real a través de TCP/IP, monitorear condiciones ambientales (temperatura y humedad) y, mediante inteligencia artificial, detectar la presencia de agua en recipientes. Este trabajo destaca mi capacidad para integrar hardware y software en soluciones innovadoras.
+This project is an intelligent rover built on a Raspberry Pi, designed and programmed in Python to showcase my skills in electronics, programming, and data analysis. The rover is capable of transmitting live video over TCP/IP, monitoring environmental conditions (temperature and humidity), and using artificial intelligence to detect water in containers. This project demonstrates my ability to integrate hardware and software to create innovative solutions.
 
-## Objetivos y Motivación
+## Objectives and Motivation
 
-- **Integración Multidisciplinaria:** Combinar conocimientos de electrónica, redes, programación en Python y técnicas de inteligencia artificial.
-- **Solución Innovadora:** Desarrollar un sistema autónomo de monitoreo y detección que pueda ser aplicado en diferentes entornos, demostrando capacidad de adaptación y solución de problemas reales.
-- **Desarrollo y Experimentación:** Experimentar con la comunicación en red (TCP/IP) y la transmisión de imágenes, optimizando la interacción entre el hardware y el software.
+- **Multidisciplinary Integration:** Combine expertise in electronics, networking, Python programming, and AI techniques.
+- **Innovative Solution:** Develop an autonomous monitoring and detection system applicable in various environments, demonstrating adaptability and practical problem-solving.
+- **Development and Experimentation:** Explore network communication (TCP/IP) and live video streaming, optimizing the interaction between hardware and software components.
 
-## Aspectos Técnicos Destacados
+## Key Technical Features
 
-- **Hardware:** 
-  - **Raspberry Pi:** Plataforma de bajo consumo y alta eficiencia para procesamiento en tiempo real.
-  - **Sensores Ambientales:** Integración de sensores de temperatura y humedad (ej. DHT11/DHT22) para monitoreo ambiental.
-  - **Cámara:** Dispositivo de captura de imágenes, crucial para la detección basada en visión.
+- **Hardware:**
+  - **Raspberry Pi:** A low-power, high-efficiency platform for real-time processing.
+  - **Environmental Sensors:** Integration of temperature and humidity sensors (e.g., DHT11/DHT22) for monitoring ambient conditions.
+  - **Camera:** Essential for capturing images used in AI-based detection.
 
-- **Software y Programación:** 
-  - **Python:** Desarrollo del sistema de control y procesamiento de datos.
-  - **Comunicación TCP/IP:** Implementación de un protocolo robusto para transmisión de video e interacción remota.
-  - **Inteligencia Artificial:** Uso de algoritmos de detección para identificar la presencia de agua en imágenes capturadas.
-  - **Modularidad y Escalabilidad:** Diseño del código enfocado en la claridad, reutilización y capacidad de expansión.
+- **Software and Programming:**
+  - **Python:** Primary programming language for control systems and data processing.
+  - **TCP/IP Communication:** Robust implementation for video streaming and remote control.
+  - **Artificial Intelligence:** Utilizes detection algorithms to identify water presence in images.
+  - **Modular and Scalable Design:** Code structured for clarity, reusability, and future expansion.
 
-## Arquitectura del Sistema
+## System Architecture
 
-- **Captura y Transmisión de Video:** 
-  - La cámara de la Raspberry Pi captura video en tiempo real, el cual se transmite a un computador mediante TCP/IP, permitiendo el control remoto y la visualización en vivo.
-- **Monitoreo Ambiental:** 
-  - Los sensores recogen datos de temperatura y humedad, proporcionando información en tiempo real sobre el entorno del rover.
-- **Detección con IA:** 
-  - Un módulo de inteligencia artificial procesa las imágenes para detectar la presencia de agua, demostrando la aplicación de técnicas de visión por computador y aprendizaje automático.
+- **Video Capture and Transmission:**
+  - The Raspberry Pi's camera captures live video, which is transmitted over TCP/IP to a remote computer, enabling live control and monitoring.
+- **Environmental Monitoring:**
+  - Sensors continuously collect real-time temperature and humidity data, providing insights into the surrounding environment.
+- **AI-based Detection:**
+  - An AI module processes the video feed to detect water in containers, demonstrating the practical application of computer vision and machine learning techniques.
 
-## Impacto y Logros
+## Impact and Achievements
 
-- **Integración Completa:** Demostración exitosa de un sistema que une hardware y software en un entorno real.
-- **Aplicaciones Potenciales:** La tecnología puede ser aplicada en áreas como monitoreo ambiental, inspección remota y sistemas autónomos.
-- **Habilidades Desarrolladas:** 
-  - Programación avanzada en Python.
-  - Diseño y manejo de hardware (Raspberry Pi, sensores y cámara).
-  - Implementación de protocolos de red (TCP/IP).
-  - Aplicación de algoritmos de inteligencia artificial en sistemas embebidos.
+- **Complete Integration:** Successfully demonstrated a system that seamlessly combines hardware and software in a real-world setting.
+- **Potential Applications:** The technology can be applied in environmental monitoring, remote inspection, and autonomous systems.
+- **Skills Demonstrated:**
+  - Advanced Python programming.
+  - Hardware design and integration (Raspberry Pi, sensors, camera).
+  - Implementation of network protocols (TCP/IP).
+  - Application of AI algorithms in embedded systems.
 
-## Conclusiones
+## Conclusion
 
-Este proyecto no solo resalta capacidades técnicas y creativas, sino que también subraya mi enfoque orientado a la resolución de problemas y la innovación. Fue un desafío emocionante que integró múltiples disciplinas para crear una solución funcional y adaptable a diversos escenarios.
+This project highlights not only my technical and creative capabilities but also my strong problem-solving skills and innovative approach. It was an exciting challenge that integrated multiple disciplines to create a functional and adaptable solution.
 
-## Acerca de Mí
+## About Me
 
-Soy un apasionado desarrollador con experiencia en proyectos de hardware y software, siempre en busca de nuevos retos y oportunidades para aplicar soluciones tecnológicas en el mundo real. Mi objetivo es seguir explorando y desarrollando proyectos que fusionen tecnología avanzada con aplicaciones prácticas.
+I am a passionate developer with experience in both hardware and software projects, constantly seeking new challenges and opportunities to apply technological solutions in the real world. My goal is to continue exploring and developing projects that merge advanced technology with practical applications.
 
----
 
-*Proyecto desarrollado en 2025 – [Tu Nombre](https://github.com/tu_usuario)*
 
